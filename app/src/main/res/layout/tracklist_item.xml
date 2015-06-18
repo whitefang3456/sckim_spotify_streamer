@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:id="@+id/tracklist_item">
+
+    <ImageView
+        android:id="@+id/list_artist_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_track_icon" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:id="@+id/list_album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="26dp"
+            android:text="Korean Best Hit 2014"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/list_track_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="26dp"
+            android:text="Oppa Gangnam Style"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>
