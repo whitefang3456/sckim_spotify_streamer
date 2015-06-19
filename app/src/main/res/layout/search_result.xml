@@ -5,10 +5,10 @@
 
     android:orientation="horizontal"
     android:padding="20dp"
-    android:id="@+id/artist_listView_item">
+    >
 
     <ImageView
-        android:id="@+id/list_artist_icon"
+        android:id="@+id/image_artist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_launcher" />
@@ -18,12 +18,13 @@
         android:orientation="vertical"
         android:layout_gravity="center_vertical">
     <TextView
-        android:id="@+id/list_artist_name"
+        android:id="@+id/textview_artist_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="26dp"
         android:text="ColdPlay"
         android:textSize="20dp"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:textColor="#666666"/>
     </LinearLayout>
 </LinearLayout>

@@ -8,7 +8,7 @@
     android:id="@+id/tracklist_item">
 
     <ImageView
-        android:id="@+id/list_artist_album"
+        android:id="@+id/image_track_album"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_track_icon" />
@@ -24,7 +24,8 @@
             android:paddingLeft="26dp"
             android:text="Korean Best Hit 2014"
             android:textSize="16dp"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#666666"/>
         <TextView
             android:id="@+id/list_track_title"
             android:layout_width="match_parent"
@@ -32,6 +33,7 @@
             android:paddingLeft="26dp"
             android:text="Oppa Gangnam Style"
             android:textSize="16dp"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:textColor="#666666"/>
     </LinearLayout>
 </LinearLayout>
